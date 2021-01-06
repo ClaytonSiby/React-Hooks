@@ -5,9 +5,10 @@ function PrevState () {
   const [count, setCount] = useState(initialCount)
 
   const incrementByFive = () => {
-    for (let i = 0; i < 5; i++) {
-      setCount(prevState => prevState + 1)
-    }
+    setCount(count + 5)
+    // for (let i = 0; i < 5; i++) {
+    //   setCount(prevState => prevState + 1)
+    // }
   }
 
   return <div>
