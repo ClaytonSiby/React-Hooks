@@ -4,7 +4,7 @@ import ObjectAsState from './components/ObjectAsState';
 import ArrayAsState from './components/ArrayAsState';
 import UseEffect from './components/UseEffect';
 import ClassMouse from './components/ClassMouse';
-import HookMouse from './components/HookMouse';
+import MouseContainer from './components/MouseContainer';
 import './App.css';
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
       <ObjectAsState />
       <ArrayAsState /> */}
       <UseEffect />
-      <ClassMouse />
-      <HookMouse />
+      {/* <ClassMouse /> */}
+      <MouseContainer />
     </div>
   );
 }
