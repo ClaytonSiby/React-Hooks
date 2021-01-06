@@ -5,6 +5,8 @@ import ArrayAsState from './components/ArrayAsState';
 import UseEffect from './components/UseEffect';
 import ClassMouse from './components/ClassMouse';
 import MouseContainer from './components/MouseContainer';
+import IntervalClassCounter from './classComponents/IntervalClassCounter';
+import IntervalHookCounter from './components/IntervalHookCounter';
 import './App.css';
 
 function App() {
@@ -14,9 +16,11 @@ function App() {
       <PrevState />
       <ObjectAsState />
       <ArrayAsState /> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
       {/* <ClassMouse /> */}
-      <MouseContainer />
+      {/* <MouseContainer /> */}
+      <IntervalClassCounter />
+      <IntervalHookCounter />
     </div>
   );
 }
