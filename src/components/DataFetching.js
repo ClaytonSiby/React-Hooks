@@ -10,7 +10,6 @@ function DataFetching () {
     axios
       .get(`http://jsonplaceholder.typicode.com/posts/${idFromBtnClick}`)
       .then(response => {
-        console.log(response)
         setPost(response.data)
       })
       .catch(err => console.log(err))
